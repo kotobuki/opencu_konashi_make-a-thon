@@ -26,7 +26,7 @@
     [Konashi initialize];
     
     // Add an observer for KONASHI_EVENT_READY events
-    [Konashi addObserver:self selector:@selector(ready) name:KONASHI_EVENT_READY];
+    [Konashi addObserver:self selector:@selector(setup) name:KONASHI_EVENT_READY];
 }
 
 - (void)didReceiveMemoryWarning
@@ -35,7 +35,11 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (void)ready
+- (IBAction)findButtonPressed:(id)sender {
+    [Konashi find];
+}
+
+- (void)setup
 {
     // Do any setups after connecting to a konashi module
 }
