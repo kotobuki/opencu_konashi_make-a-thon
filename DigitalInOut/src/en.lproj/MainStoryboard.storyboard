@@ -37,7 +37,7 @@
                                     <segment title="High"/>
                                 </segments>
                                 <connections>
-                                    <action selector="digitalOutputControlChanged:" destination="2" eventType="valueChanged" id="BNM-hF-8h4"/>
+                                    <action selector="digitalOutputControlChanged:" destination="2" eventType="valueChanged" id="Zfk-b4-CiI"/>
                                 </connections>
                             </segmentedControl>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="PIO0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bFj-74-7qV">
@@ -66,8 +66,8 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="digitalInputControl" destination="wJt-Uf-dl5" id="gpp-Ko-uIb"/>
-                        <outlet property="digitalOutputControl" destination="f3b-Gq-U0a" id="97T-Xg-14Z"/>
+                        <outlet property="digitalInputControl" destination="wJt-Uf-dl5" id="aPH-38-5xl"/>
+                        <outlet property="digitalOutputControl" destination="f3b-Gq-U0a" id="PSZ-xv-Mqq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>

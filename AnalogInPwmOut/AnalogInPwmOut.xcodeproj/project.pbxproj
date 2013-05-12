@@ -23,14 +23,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7A633FEB173F20D100D3388A /* DigitalIO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigitalIO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A633FEB173F20D100D3388A /* AnalogInPwmOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnalogInPwmOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A633FEE173F20D100D3388A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7A633FF0173F20D100D3388A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7A633FF2173F20D100D3388A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		7A633FF6173F20D100D3388A /* DigitalIO-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DigitalIO-Info.plist"; sourceTree = "<group>"; };
+		7A633FF6173F20D100D3388A /* AnalogInPwmOut-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AnalogInPwmOut-Info.plist"; sourceTree = "<group>"; };
 		7A633FF8173F20D100D3388A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7A633FFA173F20D100D3388A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7A633FFC173F20D100D3388A /* DigitalIO-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DigitalIO-Prefix.pch"; sourceTree = "<group>"; };
+		7A633FFC173F20D100D3388A /* AnalogInPwmOut-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AnalogInPwmOut-Prefix.pch"; sourceTree = "<group>"; };
 		7A633FFD173F20D100D3388A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7A633FFE173F20D100D3388A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7A634000173F20D100D3388A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -74,7 +74,7 @@
 		7A633FEC173F20D100D3388A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7A633FEB173F20D100D3388A /* DigitalIO.app */,
+				7A633FEB173F20D100D3388A /* AnalogInPwmOut.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,10 +105,10 @@
 		7A633FF5173F20D100D3388A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				7A633FF6173F20D100D3388A /* DigitalIO-Info.plist */,
+				7A633FF6173F20D100D3388A /* AnalogInPwmOut-Info.plist */,
 				7A633FF7173F20D100D3388A /* InfoPlist.strings */,
 				7A633FFA173F20D100D3388A /* main.m */,
-				7A633FFC173F20D100D3388A /* DigitalIO-Prefix.pch */,
+				7A633FFC173F20D100D3388A /* AnalogInPwmOut-Prefix.pch */,
 				7A634000173F20D100D3388A /* Default.png */,
 				7A634002173F20D100D3388A /* Default@2x.png */,
 				7A634004173F20D100D3388A /* Default-568h@2x.png */,
@@ -130,9 +130,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7A633FEA173F20D000D3388A /* DigitalIO */ = {
+		7A633FEA173F20D000D3388A /* AnalogInPwmOut */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7A63400E173F20D100D3388A /* Build configuration list for PBXNativeTarget "DigitalIO" */;
+			buildConfigurationList = 7A63400E173F20D100D3388A /* Build configuration list for PBXNativeTarget "AnalogInPwmOut" */;
 			buildPhases = (
 				7A633FE7173F20D000D3388A /* Sources */,
 				7A633FE8173F20D000D3388A /* Frameworks */,
@@ -142,9 +142,9 @@
 			);
 			dependencies = (
 			);
-			name = DigitalIO;
-			productName = BareMinimum;
-			productReference = 7A633FEB173F20D100D3388A /* DigitalIO.app */;
+			name = AnalogInPwmOut;
+			productName = AnalogInPWM;
+			productReference = 7A633FEB173F20D100D3388A /* AnalogInPwmOut.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -156,7 +156,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Shigeru Kobayashi";
 			};
-			buildConfigurationList = 7A633FE6173F20D000D3388A /* Build configuration list for PBXProject "DigitalIO" */;
+			buildConfigurationList = 7A633FE6173F20D000D3388A /* Build configuration list for PBXProject "AnalogInPwmOut" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -168,7 +168,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7A633FEA173F20D000D3388A /* DigitalIO */,
+				7A633FEA173F20D000D3388A /* AnalogInPwmOut */,
 			);
 		};
 /* End PBXProject section */
@@ -282,9 +282,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "src/DigitalIO-Prefix.pch";
-				INFOPLIST_FILE = "src/DigitalIO-Info.plist";
-				PRODUCT_NAME = DigitalIO;
+				GCC_PREFIX_HEADER = "src/AnalogInPwmOut-Prefix.pch";
+				INFOPLIST_FILE = "src/AnalogInPwmOut-Info.plist";
+				PRODUCT_NAME = AnalogInPwmOut;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -293,9 +293,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "src/DigitalIO-Prefix.pch";
-				INFOPLIST_FILE = "src/DigitalIO-Info.plist";
-				PRODUCT_NAME = DigitalIO;
+				GCC_PREFIX_HEADER = "src/AnalogInPwmOut-Prefix.pch";
+				INFOPLIST_FILE = "src/AnalogInPwmOut-Info.plist";
+				PRODUCT_NAME = AnalogInPwmOut;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -303,7 +303,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7A633FE6173F20D000D3388A /* Build configuration list for PBXProject "DigitalIO" */ = {
+		7A633FE6173F20D000D3388A /* Build configuration list for PBXProject "AnalogInPwmOut" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7A63400C173F20D100D3388A /* Debug */,
@@ -312,7 +312,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7A63400E173F20D100D3388A /* Build configuration list for PBXNativeTarget "DigitalIO" */ = {
+		7A63400E173F20D100D3388A /* Build configuration list for PBXNativeTarget "AnalogInPwmOut" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7A63400F173F20D100D3388A /* Debug */,

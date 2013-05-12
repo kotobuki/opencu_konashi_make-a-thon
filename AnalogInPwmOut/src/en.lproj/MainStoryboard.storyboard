@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12D78" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sbm-Xu-7V6">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Find">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="findButtonPressed:" destination="2" eventType="touchUpInside" id="QZl-C2-hna"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="AIO0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bFj-74-7qV">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="PIO1: LED2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D9P-4j-frf">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="EH0-di-0nb">
+                                <connections>
+                                    <action selector="analogOutputControllerChanged:" destination="2" eventType="valueChanged" id="P1B-xN-KEP"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1300" translatesAutoresizingMaskIntoConstraints="NO" id="Z4D-4h-xPf"/>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="EH0-di-0nb" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="6m7-fO-f8a"/>
+                            <constraint firstItem="Z4D-4h-xPf" firstAttribute="top" secondItem="bFj-74-7qV" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="GBa-I2-3QY"/>
+                            <constraint firstItem="D9P-4j-frf" firstAttribute="centerX" secondItem="EH0-di-0nb" secondAttribute="centerX" type="default" id="Goy-wP-Yd2"/>
+                            <constraint firstItem="EH0-di-0nb" firstAttribute="top" secondItem="D9P-4j-frf" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="LQq-QW-zze"/>
+                            <constraint firstItem="Sbm-Xu-7V6" firstAttribute="top" secondItem="3" secondAttribute="top" constant="20" symbolic="YES" type="default" id="NsN-Tw-HJw"/>
+                            <constraint firstItem="D9P-4j-frf" firstAttribute="top" secondItem="Z4D-4h-xPf" secondAttribute="bottom" constant="24" type="user" id="V3f-b4-ipF"/>
+                            <constraint firstItem="bFj-74-7qV" firstAttribute="centerX" secondItem="Z4D-4h-xPf" secondAttribute="centerX" type="default" id="WWZ-gU-mif"/>
+                            <constraint firstItem="bFj-74-7qV" firstAttribute="top" secondItem="3" secondAttribute="top" constant="223" id="aSu-Ro-VXJ"/>
+                            <constraint firstAttribute="trailing" secondItem="Z4D-4h-xPf" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="fUj-xk-wq7"/>
+                            <constraint firstItem="EH0-di-0nb" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="h2v-Qs-1ub"/>
+                            <constraint firstItem="Z4D-4h-xPf" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="jJy-E2-xi2"/>
+                            <constraint firstItem="bFj-74-7qV" firstAttribute="centerX" secondItem="Sbm-Xu-7V6" secondAttribute="centerX" type="default" id="kGr-7Z-12O"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="analogInputController" destination="Z4D-4h-xPf" id="dXH-Fx-WWa"/>
+                        <outlet property="analogOutputController" destination="EH0-di-0nb" id="uti-oh-BKW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
