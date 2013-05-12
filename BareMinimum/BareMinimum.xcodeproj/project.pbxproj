@@ -65,7 +65,7 @@
 			children = (
 				7A634013173F222700D3388A /* Konashi */,
 				7A634011173F211800D3388A /* CoreBluetooth.framework */,
-				7A633FF4173F20D100D3388A /* BareMinimum */,
+				7A633FF4173F20D100D3388A /* src */,
 				7A633FED173F20D100D3388A /* Frameworks */,
 				7A633FEC173F20D100D3388A /* Products */,
 			);
@@ -89,7 +89,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7A633FF4173F20D100D3388A /* BareMinimum */ = {
+		7A633FF4173F20D100D3388A /* src */ = {
 			isa = PBXGroup;
 			children = (
 				7A633FFD173F20D100D3388A /* AppDelegate.h */,
@@ -99,7 +99,7 @@
 				7A63400A173F20D100D3388A /* ViewController.m */,
 				7A633FF5173F20D100D3388A /* Supporting Files */,
 			);
-			path = BareMinimum;
+			path = src;
 			sourceTree = "<group>";
 		};
 		7A633FF5173F20D100D3388A /* Supporting Files */ = {
@@ -282,8 +282,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BareMinimum/BareMinimum-Prefix.pch";
-				INFOPLIST_FILE = "BareMinimum/BareMinimum-Info.plist";
+				GCC_PREFIX_HEADER = "src/BareMinimum-Prefix.pch";
+				INFOPLIST_FILE = "src/BareMinimum-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -293,8 +293,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BareMinimum/BareMinimum-Prefix.pch";
-				INFOPLIST_FILE = "BareMinimum/BareMinimum-Info.plist";
+				GCC_PREFIX_HEADER = "src/BareMinimum-Prefix.pch";
+				INFOPLIST_FILE = "src/BareMinimum-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
