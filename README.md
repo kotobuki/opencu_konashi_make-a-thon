@@ -3,7 +3,7 @@ opencu_konashi_make-a-thon
 
 ## Introduction
 
-Examples for the Make-a-thon at [OpenCU](http://www.opencu.com/) on June 1 and 22 in 2013 with Shunsuke Aoki and Reo Matsumura ([YUKAI Engineering Inc](http://www.ux-xu.com/))
+Examples for the Make-a-thon
 
 Created by [Shigeru Kobayashi](https://www.facebook.com/yapan.org) (Associate professor, [Institute of Advanced Media Arts and Sciences [IAMAS]](http://www.iamas.ac.jp/))
 
