@@ -17,6 +17,7 @@ Created by [Shigeru Kobayashi](https://www.facebook.com/yapan.org) (Associate pr
 * **AnalogEvent**: an example to illustrate a way of controlling a LED according to the brightness
 * **ReadSignalStrength**: an example to illustrate a way of reading signal strength continuously
 * **BlinkM**: an example to illustrate a way of controlling a BlinkM, a smart LED developed by ThingM
+* **ControlByShaking**: an example to illustrate a way of controlling a LED by shaking
 
 ## References
 
