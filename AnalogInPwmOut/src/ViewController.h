@@ -13,7 +13,6 @@
 @property (weak, nonatomic) IBOutlet UISlider *analogInputController;
 @property (weak, nonatomic) IBOutlet UISlider *analogOutputController;
 
-- (IBAction)findButtonPressed:(id)sender;
 - (IBAction)analogOutputControllerChanged:(id)sender;
 
 @end

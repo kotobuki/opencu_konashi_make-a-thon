@@ -23,7 +23,6 @@
 @property (weak, nonatomic) IBOutlet UILabel *thresholdHighLabel;
 @property (weak, nonatomic) IBOutlet UITextView *usageTextView;
 
-- (IBAction)findButtonPressed:(id)sender;
 - (IBAction)thresholdLowChanged:(id)sender;
 - (IBAction)thresholdHighChanged:(id)sender;
 

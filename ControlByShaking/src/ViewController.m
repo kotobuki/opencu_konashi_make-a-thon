@@ -22,13 +22,13 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 
+    // Initialize the variable to show LED state
+    // LEDの状態を示す変数を初期化
     _ledIsOn = NO;
     
-    // Initialize
     [Konashi initialize];
-    
-    // Add an observer for KONASHI_EVENT_READY events
     [Konashi addObserver:self selector:@selector(setup) name:KONASHI_EVENT_READY];
+    [Konashi find];
 }
 
 - (void)didReceiveMemoryWarning
@@ -79,10 +79,6 @@
 - (void)motionCancelled:(UIEventSubtype)motion withEvent:(UIEvent *)event
 {
     NSLog(@"cancelled");
-}
-
-- (IBAction)findButtonPressed:(id)sender {
-    [Konashi find];
 }
 
 - (void)setup

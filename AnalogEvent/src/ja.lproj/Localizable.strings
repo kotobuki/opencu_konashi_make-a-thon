@@ -5,4 +5,4 @@
   Created by Shigeru Kobayashi on 2013/05/12.
   Copyright (c) 2013年 Shigeru Kobayashi. All rights reserved.
 */
-"Usage" = "最初にFindボタンを押してkonashiと接続します。接続が終わったら、AIOの値を確認しながらThreshold H（低い方の閾値）とThreshold H（高い方の閾値）を設定します。値が低い方の閾値を下回るとLED2が点灯し、高い方の閾値を上回るとLED2が消灯します。";
+"Usage" = "まず最初にkonashiモジュールを選択します。接続が終わったら、AIOの値を確認しながらThreshold H（低い方の閾値）とThreshold H（高い方の閾値）を設定します。値が低い方の閾値を下回るとLED2が点灯し、高い方の閾値を上回るとLED2が消灯します。";

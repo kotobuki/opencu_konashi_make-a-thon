@@ -22,21 +22,15 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 
-    // Initialize
     [Konashi initialize];
-    
-    // Add an observer for KONASHI_EVENT_READY events
     [Konashi addObserver:self selector:@selector(setup) name:KONASHI_EVENT_READY];
+    [Konashi find];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-
-- (IBAction)findButtonPressed:(id)sender {
-    [Konashi find];
 }
 
 - (void)setup

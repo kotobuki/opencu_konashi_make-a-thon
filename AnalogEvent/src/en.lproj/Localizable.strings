@@ -5,4 +5,4 @@
   Created by Shigeru Kobayashi on 2013/05/12.
   Copyright (c) 2013年 Shigeru Kobayashi. All rights reserved.
 */
-"Usage" = "First of all, press the FInd button to find your konashi module. Then set both low and high threshold with watching the AIO0 value. If the AIO0 value goes under the lower threshold, the LED2 on the konashi module turns on. If the AIO0 value goes over the higher threshold, the LED2 will turns off.";
+"Usage" = "First of all, choose your konashi module from the list. Then set both low and high threshold with watching the AIO0 value. If the AIO0 value goes under the lower threshold, the LED2 on the konashi module turns on. If the AIO0 value goes over the higher threshold, the LED2 will turns off.";

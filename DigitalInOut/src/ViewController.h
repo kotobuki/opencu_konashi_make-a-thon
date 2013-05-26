@@ -12,7 +12,6 @@
 @property (weak, nonatomic) IBOutlet UISegmentedControl *digitalInputControl;
 @property (weak, nonatomic) IBOutlet UISegmentedControl *digitalOutputControl;
 
-- (IBAction)findButtonPressed:(id)sender;
 - (IBAction)digitalOutputControlChanged:(id)sender;
 
 @end

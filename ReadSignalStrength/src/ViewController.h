@@ -11,6 +11,4 @@
 @interface ViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UIProgressView *signalStrengthIndicator;
 
-- (IBAction)findButtonPressed:(id)sender;
-
 @end

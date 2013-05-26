@@ -13,6 +13,4 @@
     BOOL _ledIsOn;
 }
 
-- (IBAction)findButtonPressed:(id)sender;
-
 @end
