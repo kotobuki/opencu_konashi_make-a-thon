@@ -14,7 +14,6 @@
     BlinkM *blinkM;
 }
 
-- (IBAction)findButtonPressed:(id)sender;
 - (IBAction)fadeToRandomColorButtonPressed:(id)sender;
 
 @end
