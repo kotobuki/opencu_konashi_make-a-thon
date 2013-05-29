@@ -5,9 +5,6 @@
 //  Created by Shigeru Kobayashi on 2013/05/12.
 //  Copyright (c) 2013年 Shigeru Kobayashi. All rights reserved.
 //
-//  TODO:
-//  ・バックグラウンド時に位置情報サービスを小電力のものに変更する
-//  ・不要なビューの更新を行わないようにする
 
 #import "ViewController.h"
 
@@ -38,7 +35,7 @@
 }
 
 - (void)locationManager:(CLLocationManager *)manager didUpdateToLocation:(CLLocation *)newLocation fromLocation:(CLLocation *)oldLocation {
-    //緯度・経度を出力
+    // 緯度・経度を確認用にログに出力
     NSLog(@"didUpdateToLocation lat=%f, lng=%f", [newLocation coordinate].latitude, [newLocation coordinate].longitude);
 
     // 地図の中心座標に現在地を設定
@@ -79,7 +76,7 @@
         // Add an annotation at the user location to the map
         // 地図の現在地にピンをドロップ
         MKPointAnnotation* pin = [[MKPointAnnotation alloc] init];
-        pin.coordinate = _mapView.userLocation.location.coordinate;
+        pin.coordinate = locationManager.location.coordinate;
         [_mapView addAnnotation:pin];
     }
 }
